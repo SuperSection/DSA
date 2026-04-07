@@ -4,7 +4,7 @@ import java.util.Arrays;
 /**
  * LeetCode Problem: 238. Product of Array Except Self
  */
-class Solution {
+class SolutionLCP238 {
 
     public static int[] productExceptSelf(int[] nums) {
         int[] ans = new int[nums.length];
@@ -29,7 +29,7 @@ public class ProductOfArrayExceptSelf {
 
     public static void main(String[] args) {
         int[] nums = {1, 2, 3, 4};
-        System.out.println(Arrays.toString(Solution.productExceptSelf(nums)));
+        System.out.println(Arrays.toString(SolutionLCP238.productExceptSelf(nums)));
     }
 
 }

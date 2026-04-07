@@ -4,7 +4,7 @@ import java.util.HashMap;
 /**
  * LeetCode Problem: 953. Verifying an Alien Dictionary
  */
-class Solution {
+class SolutionLCP953 {
 
     public static boolean isAlienSorted(String[] words, String order) {
         HashMap<Character, Integer> orderMap = new HashMap<>();
@@ -41,7 +41,7 @@ class Solution {
 public class VerifyingAnAlienDictionary {
 
     public static void main(String[] args) {
-        System.out.println(Solution.isAlienSorted(
+        System.out.println(SolutionLCP953.isAlienSorted(
                 new String[]{"hello", "leetcode"}, "hlabcdefgijkmnopqrstuvwxyz"
         ));
     }

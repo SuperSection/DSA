@@ -7,7 +7,7 @@ import java.util.PriorityQueue;
 /**
  * LeetCode Problem: 347. Top K Frequent Elements
  */
-class Solution {
+class SolutionLCP347 {
 
     public static int[] topKFrequent(int[] nums, int k) {
 
@@ -44,7 +44,7 @@ class Solution {
 public class TopKFrequentElements {
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(Solution.topKFrequent(
+        System.out.println(Arrays.toString(SolutionLCP347.topKFrequent(
                 new int[]{1, 3, 4, 3, 4, 2, 3, 4, 5, 2, 4, 5, 5}, 3
         )));
     }

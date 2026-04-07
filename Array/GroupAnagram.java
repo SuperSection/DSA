@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * LeetCode Problem: 49. Group Anagrams
  */
-class Solution {
+class SolutionLCP49 {
 
     public static List<List<String>> groupAnagrams(String[] strs) {
         if (strs.length == 0) {
@@ -34,6 +34,6 @@ class Solution {
 public class GroupAnagram {
 
     public static void main(String[] args) {
-        System.out.println(Solution.groupAnagrams(new String[]{"cat", "tea", "tab", "eat", "bat", "ate"}));
+        System.out.println(SolutionLCP49.groupAnagrams(new String[]{"cat", "tea", "tab", "eat", "bat", "ate"}));
     }
 }

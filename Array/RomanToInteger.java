@@ -5,7 +5,7 @@ import java.util.Map;
 /**
  * LeetCode Problem: 13. Roman to Integer
  */
-class Solution {
+class SolutionLCP13 {
 
     static final Map<String, Integer> values = new HashMap<>();
 
@@ -53,6 +53,6 @@ class Solution {
 public class RomanToInteger {
 
     public static void main(String[] args) {
-        System.out.println(Solution.romanToInt("MCMXCIV"));
+        System.out.println(SolutionLCP13.romanToInt("MCMXCIV"));
     }
 }

@@ -5,7 +5,7 @@ import java.util.HashMap;
 /**
  * LeetCode Problem: 1. Two Sum
  */
-class Solution {
+class SolutionLCP1 {
 
     public static int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<>();
@@ -27,6 +27,6 @@ class Solution {
 public class TwoSum {
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(Solution.twoSum(new int[]{3, 2, 4}, 6)));
+        System.out.println(Arrays.toString(SolutionLCP1.twoSum(new int[]{3, 2, 4}, 6)));
     }
 }

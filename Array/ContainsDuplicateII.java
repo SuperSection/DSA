@@ -4,7 +4,7 @@ import java.util.HashMap;
 /**
  * LeetCode Problem: 219. Contains Duplicate II
  */
-class Solution {
+class SolutionLCP219 {
 
     public static boolean containsNearbyDuplicate(int[] nums, int k) {
         HashMap<Integer, Integer> map = new HashMap<>();
@@ -24,7 +24,7 @@ class Solution {
 public class ContainsDuplicateII {
 
     public static void main(String[] args) {
-        System.out.println(Solution.containsNearbyDuplicate(new int[]{1, 2, 3, 1}, 3));
-        System.out.println(Solution.containsNearbyDuplicate(new int[]{1, 2, 3, 1, 2, 3}, 2));
+        System.out.println(SolutionLCP219.containsNearbyDuplicate(new int[]{1, 2, 3, 1}, 3));
+        System.out.println(SolutionLCP219.containsNearbyDuplicate(new int[]{1, 2, 3, 1, 2, 3}, 2));
     }
 }

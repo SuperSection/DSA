@@ -2,7 +2,7 @@
 /**
  * LeetCode Problem: 242. Valid Anagram
  */
-class Solution {
+class SolutionLCP242 {
 
     public static boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) {
@@ -29,7 +29,7 @@ class Solution {
 public class ValidAnagram {
 
     public static void main(String[] args) {
-        System.out.println(Solution.isAnagram("race", "care"));
-        System.out.println(Solution.isAnagram("cat", "tab"));
+        System.out.println(SolutionLCP242.isAnagram("race", "care"));
+        System.out.println(SolutionLCP242.isAnagram("cat", "tab"));
     }
 }

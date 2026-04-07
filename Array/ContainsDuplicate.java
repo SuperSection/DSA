@@ -4,7 +4,7 @@ import java.util.HashSet;
 /**
  * LeetCode Problem: 217. Contains Duplicate
  */
-class Solution {
+class SolutionLCP217 {
 
     public static boolean containsDuplicate(int[] nums) {
         HashSet<Integer> seen = new HashSet<>();
@@ -22,7 +22,7 @@ class Solution {
 public class ContainsDuplicate {
 
     public static void main(String[] args) {
-        System.out.println(Solution.containsDuplicate(new int[]{1, 1, 1, 3, 3, 4, 3, 2, 4, 2}));
-        System.out.println(Solution.containsDuplicate(new int[]{1, 2, 4, 3, 5}));
+        System.out.println(SolutionLCP217.containsDuplicate(new int[]{1, 1, 1, 3, 3, 4, 3, 2, 4, 2}));
+        System.out.println(SolutionLCP217.containsDuplicate(new int[]{1, 2, 4, 3, 5}));
     }
 }

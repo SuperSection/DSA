@@ -4,7 +4,7 @@ import java.util.Arrays;
 /**
  * LeetCode Problem: 1929. Concatenation of Array
  */
-class ConcatenateArray {
+class SolutionLCP1929 {
 
     public static int[] getConcatenation(int[] nums) {
         int n = nums.length;
@@ -22,7 +22,7 @@ class ConcatenateArray {
 /**
  * LeetCode Problem: 1470. Shuffle the Array
  */
-class ShuffleArray {
+class SolutionLCP1470 {
 
     public static int[] shuffle(int[] nums, int n) {
         int[] output = new int[2 * n];
@@ -45,7 +45,7 @@ class ShuffleArray {
 /**
  * LeetCode Problem: 485. Max Consecutive Ones
  */
-class BinaryArray {
+class SolutionLCP485 {
 
     public static int findMaxConsecutiveOnes(int[] nums) {
         int maxOnes = 0;
@@ -69,7 +69,7 @@ class BinaryArray {
 /**
  * LeetCode Problem: 645. Set Mismatch
  */
-class SetMismatch {
+class SolutionLCP645 {
 
     public static int[] findErrorNums(int[] nums) {
 
@@ -99,10 +99,10 @@ public class ArrayEasyQues {
 
         int[] nums = {2, 5, 1, 3, 4, 7};
 
-        System.out.println(Arrays.toString(ConcatenateArray.getConcatenation(nums)));
-        System.out.println(Arrays.toString(ShuffleArray.shuffle(nums, 3)));
-        System.out.println(BinaryArray.findMaxConsecutiveOnes(new int[]{1, 1, 0, 1, 1, 1}));
+        System.out.println(Arrays.toString(SolutionLCP1929.getConcatenation(nums)));
+        System.out.println(Arrays.toString(SolutionLCP1470.shuffle(nums, 3)));
+        System.out.println(SolutionLCP485.findMaxConsecutiveOnes(new int[]{1, 1, 0, 1, 1, 1}));
 
-        System.out.println(Arrays.toString(SetMismatch.findErrorNums(new int[]{2, 2})));
+        System.out.println(Arrays.toString(SolutionLCP645.findErrorNums(new int[]{2, 2})));
     }
 }
