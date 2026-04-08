@@ -12,14 +12,22 @@ class SolutionLCP3 {
 
     public static int lengthOfLongestSubstring(String s) {
 
+        if (s == null || s.length() == 0) {
+            return 0;
+        }
+
+        if (s.length() == 1) {
+            return 1;
+        }
+
         int maxLength = 0;
+
+        // Two Pointer approach
+        int left = 0, right = 0;
 
         // You could use a HashSet
         // BUT it would be slower while moving the 'left' pointer
         HashMap<Character, Integer> charMap = new HashMap<>();
-
-        // Two Pointer approach
-        int left = 0, right = 0;
 
         while (right < s.length()) {
             char c = s.charAt(right);
