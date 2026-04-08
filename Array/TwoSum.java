@@ -4,6 +4,10 @@ import java.util.HashMap;
 
 /**
  * LeetCode Problem: 1. Two Sum
+ *
+ * --- Solution ---
+ *      Time Complexity: O(n)
+ *      Space Complexity: O(n)
  */
 class SolutionLCP1 {
 

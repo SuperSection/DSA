@@ -3,6 +3,10 @@ import java.util.HashSet;
 
 /**
  * LeetCode Problem: 217. Contains Duplicate
+ *
+ * --- Solution ---
+ *      Time Complexity: O(n)
+ *      Space Complexity: O(n)
  */
 class SolutionLCP217 {
 

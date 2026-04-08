@@ -3,6 +3,10 @@ import java.util.Arrays;
 
 /**
  * LeetCode Problem: 1929. Concatenation of Array
+ *
+ * --- Solution ---
+ *      Time Complexity: O(n)
+ *      Space Complexity: O(n)
  */
 class SolutionLCP1929 {
 
@@ -21,6 +25,10 @@ class SolutionLCP1929 {
 
 /**
  * LeetCode Problem: 1470. Shuffle the Array
+ *
+ * --- Solution ---
+ *      Time Complexity: O(n)
+ *      Space Complexity: O(n)
  */
 class SolutionLCP1470 {
 
@@ -44,6 +52,10 @@ class SolutionLCP1470 {
 
 /**
  * LeetCode Problem: 485. Max Consecutive Ones
+ *
+ * --- Solution ---
+ *      Time Complexity: O(n)
+ *      Space Complexity: O(1)
  */
 class SolutionLCP485 {
 
@@ -68,6 +80,10 @@ class SolutionLCP485 {
 
 /**
  * LeetCode Problem: 645. Set Mismatch
+ * 
+ * --- Solution ---
+ *      Time Complexity: O(n)
+ *      Space Complexity: O(n)
  */
 class SolutionLCP645 {
 

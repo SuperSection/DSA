@@ -6,6 +6,13 @@ import java.util.PriorityQueue;
 
 /**
  * LeetCode Problem: 347. Top K Frequent Elements
+ *
+ * --- Solution ---
+ *      Time Complexity: O(n log k)
+ *      Space Complexity: O(n)
+ *
+ * If k is small, heap approach is efficient.
+ * If k ≈ n, bucket sort (O(n)) can be better.
  */
 class SolutionLCP347 {
 

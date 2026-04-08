@@ -1,6 +1,10 @@
 
 /**
  * LeetCode Problem: 242. Valid Anagram
+ *
+ * --- Solution ---
+ *      Time Complexity: O(n)
+ *      Space Complexity: O(1)
  */
 class SolutionLCP242 {
 

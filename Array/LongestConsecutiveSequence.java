@@ -3,6 +3,10 @@ import java.util.HashSet;
 
 /**
  * LeetCode Problem: 128. Longest Consecutive Sequence
+ *
+ * --- Solution ---
+ *      Time Complexity: O(n)
+ *      Space Complexity: O(n)
  */
 class SolutionLCP128 {
 
@@ -22,11 +26,10 @@ class SolutionLCP128 {
 
         for (int num : set) {
             if (!set.contains(num - 1)) {
-                int curr = num;
                 int currCount = 0;
 
-                while (set.contains(curr)) {
-                    curr++;
+                while (set.contains(num)) {
+                    num++;
                     currCount++;
                 }
 

@@ -3,6 +3,10 @@ import java.util.HashMap;
 
 /**
  * LeetCode Problem: 953. Verifying an Alien Dictionary
+ *
+ * --- Solution ---
+ *      Time Complexity: O(n.m)
+ *      Space Complexity: O(1)
  */
 class SolutionLCP953 {
 

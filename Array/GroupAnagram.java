@@ -6,6 +6,10 @@ import java.util.List;
 
 /**
  * LeetCode Problem: 49. Group Anagrams
+ *
+ * --- Solution ---
+ *      Time Complexity: O(n . k log k)
+ *      Space Complexity: O(n)
  */
 class SolutionLCP49 {
 

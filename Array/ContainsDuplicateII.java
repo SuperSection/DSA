@@ -3,6 +3,10 @@ import java.util.HashMap;
 
 /**
  * LeetCode Problem: 219. Contains Duplicate II
+ *
+ * --- Solution ---
+ *      Time Complexity: O(n)
+ *      Space Complexity: O(n)
  */
 class SolutionLCP219 {
 
