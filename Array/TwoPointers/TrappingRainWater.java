@@ -1,6 +1,10 @@
 
 /**
- * LeetCode Problem: 42.
+ * LeetCode Problem: 42. Trapping Rain Water
+ *
+ * --- Solution ---
+ *      Time Complexity: O(n)
+ *      Space Complexity: O(1)
  */
 class SolutionLCP42 {
 
